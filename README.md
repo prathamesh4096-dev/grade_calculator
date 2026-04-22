@@ -51,16 +51,7 @@ If the entered marks are outside the range of 0–100, the program will prompt t
 ❌ Out of range. Try again.
 Enter marks between 0 and 100:
 ```
-📂 Code Overview
-Uses input() to collect user data
-Implements a while loop for validation
-Uses if-elif-else conditions for grading logic
-Outputs results using formatted strings (f-strings)
-🚀 Future Improvements
-Add support for multiple students
-Store results in a file (CSV/JSON)
-Add a GUI using Tkinter or a web interface
-Include percentage and subject-wise grading
+
 👤 Author
 
 Prathamesh
