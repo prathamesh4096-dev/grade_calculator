@@ -43,6 +43,7 @@ Result for John:
 Marks: 85
 Grade: B
 Comments: Well Done!
+'''
 ⚠️ Input Validation
 
 If the entered marks are outside the range of 0–100, the program will prompt the user to re-enter valid marks:
