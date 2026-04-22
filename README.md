@@ -43,13 +43,14 @@ Result for John:
 Marks: 85
 Grade: B
 Comments: Well Done!
-'''
+```
 ⚠️ Input Validation
 
 If the entered marks are outside the range of 0–100, the program will prompt the user to re-enter valid marks:
-
+```bash
 ❌ Out of range. Try again.
 Enter marks between 0 and 100:
+```
 📂 Code Overview
 Uses input() to collect user data
 Implements a while loop for validation
