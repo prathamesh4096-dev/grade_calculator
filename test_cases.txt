@@ -1,0 +1,52 @@
+## 🧪 Test Cases
+
+The following test cases cover valid inputs, boundary conditions, and invalid inputs.
+
+---
+
+### ✅ Valid Input Test Cases
+
+| Test Case ID | Input Name | Input Marks | Expected Grade | Expected Output Message           |
+|--------------|-----------|-------------|----------------|------------------------------------|
+| TC01         | Alice     | 95          | A              | Very Good! Keep it up! 👍          |
+| TC02         | Bob       | 90          | A              | Very Good! Keep it up! 👍          |
+| TC03         | Charlie   | 85          | B              | Well Done!                         |
+| TC04         | David     | 80          | B              | Well Done!                         |
+| TC05         | Eve       | 75          | C              | Average performance                |
+| TC06         | Frank     | 70          | C              | Average performance                |
+| TC07         | Grace     | 65          | D              | You can do better                  |
+| TC08         | Henry     | 60          | D              | You can do better                  |
+| TC09         | Ivy       | 55          | F              | You failed. Try again              |
+| TC10         | Jack      | 0           | F              | You failed. Try again              |
+
+---
+
+### 🎯 Boundary Value Test Cases
+
+| Test Case ID | Input Marks | Expected Grade |
+|--------------|-------------|----------------|
+| TC11         | 100         | A              |
+| TC12         | 89          | B              |
+| TC13         | 79          | C              |
+| TC14         | 69          | D              |
+| TC15         | 59          | F              |
+
+---
+
+### ❌ Invalid Input Test Cases (Input Validation)
+
+| Test Case ID | Input Marks | Expected Behavior                             |
+|--------------|-------------|-----------------------------------------------|
+| TC16         | -10         | Prompt again: "Out of range. Try again."      |
+| TC17         | 150         | Prompt again: "Out of range. Try again."      |
+| TC18         | 101         | Prompt again: "Out of range. Try again."      |
+
+---
+
+### 🔁 Re-entry Test Cases
+
+| Test Case ID | Initial Input | Second Input | Expected Result      |
+|--------------|--------------|--------------|-----------------------|
+| TC19         | -5           | 85           | Grade B               |
+| TC20         | 120          | 92           | Grade A               |
+
