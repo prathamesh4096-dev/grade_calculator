@@ -1,25 +1,39 @@
-🎓 Student Grade Calculator
+# 🎓 Student Grade Calculator
 
 A simple Python program that takes a student's name and marks as input, validates the input, and assigns a grade along with a performance message.
 
-📌 Features
-Accepts student name and marks (0–100)
-Validates input to ensure marks are within range
-Assigns grades based on score
-Displays a personalized result summary
-Beginner-friendly and easy to understand
-🧮 Grading Criteria
-Marks Range	Grade	Message
-90 - 100	A	Very Good! Keep it up! 👍
-80 - 89	B	Well Done!
-70 - 79	C	Average performance
-60 - 69	D	You can do better
-Below 60	F	You failed. Try again
-▶️ How to Run
-Make sure you have Python installed (Python 3.x recommended)
-Save the script as grade_calculator.py
-Open terminal or command prompt
-Run the program:
+---
+
+## 📌 Features
+
+- Accepts student name and marks (0–100)
+- Validates input to ensure marks are within range
+- Assigns grades based on score
+- Displays a personalized result summary
+- Beginner-friendly and easy to understand
+
+---
+
+## 🧮 Grading Criteria
+
+| Marks Range | Grade | Message                     |
+|------------|-------|-----------------------------|
+| 90 - 100   | A     | Very Good! Keep it up! 👍   |
+| 80 - 89    | B     | Well Done!                  |
+| 70 - 79    | C     | Average performance         |
+| 60 - 69    | D     | You can do better           |
+| Below 60   | F     | You failed. Try again       |
+
+---
+
+## ▶️ How to Run
+
+1. Make sure you have Python installed (Python 3.x recommended)
+2. Save the script as `grade_calculator.py`
+3. Open a terminal or command prompt
+4. Run the program:
+
+```bash
 python grade_calculator.py
 📝 Example Output
 Enter student name: John
@@ -43,7 +57,7 @@ Outputs results using formatted strings (f-strings)
 🚀 Future Improvements
 Add support for multiple students
 Store results in a file (CSV/JSON)
-Add a GUI using Tkinter or web interface
+Add a GUI using Tkinter or a web interface
 Include percentage and subject-wise grading
 👤 Author
 
